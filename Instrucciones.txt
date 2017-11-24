@@ -1,0 +1,43 @@
+No son menos, es para diferenciar los pasos con -
+
+- Instalar NodeJs
+
+- npm install @angular/cli -g
+para instalar angular cli globalmente ( se hace solo una vez )
+
+- ng new MySongRemover
+para crear el proyecto 
+
+- cd MySongRemover/
+para entrar a la carpeta luego de que se haya creado el proyecto
+
+- ng build
+
+ya creado el proyecto en angular, se tiene que crear el servidor de Express
+
+- npm install express body-parser --save
+
+crear un archivo server.js en la carpeta para crear el servidor en express
+
+
+https://www.youtube.com/watch?v=Tw-rskOmcMM video
+
+min 7:40 para instalar mongoDB
+"C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe"
+
+"C:\Program Files\MongoDB\Server\3.4\bin\mongo.exe"
+
+le coloque a la base de datos MySongRemover
+
+instalar
+- npm install mongodb --save
+
+
+ahora crear un servicio
+
+- ng g service data
+
+
+
+
+
